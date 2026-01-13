@@ -18,7 +18,8 @@ jobs:
 
 
             - name: Say Hello
-              run: echo "Hello, World! from GitHub Actions  Repository:" ${{ github.repository }}"
+              run: |
+                echo "Hello, World! from GitHub Actions  Repository: ${{ github.repository }}"
 
 
 
