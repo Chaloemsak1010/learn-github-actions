@@ -1,3 +1,11 @@
+# GitHub Actions Components
+#- Workflow: A configurable automated process made up of one or more jobs.
+#- Event: A specific activity that triggers a workflow to run.
+#- Job: A set of steps that execute on the same runner.
+#- Step: An individual task that can run commands or use an action.
+#- Action: A reusable extension that can be used in workflows to perform a specific task.
+#- Runner: A server that runs your workflows when they are triggered.
+
 name: My first workflow 
 
 # Trigger the workflow on push to main branch
